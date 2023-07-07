@@ -1,0 +1,119 @@
+/* common shared styles */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* N letter color */
+.text-n{
+    color: rgb(185, 84, 84);
+}
+/* B letter color */
+.text-b{
+    color: #3de653d7;
+}
+/* L letter color */
+.text-l{
+    color: rgb(248, 166, 60);
+}
+/*  header related style */
+.header{
+    background-color: #a6caae;
+}
+/* nav related style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+.nav-title{
+    color: #181818;
+font-family: Open Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+/* background-color: rgb(0, 0, 0); */
+border-radius: 20px;
+/* 
+background-image: url(https://img.freepik.com/premium-psd/smoke-effect-transparent-background_547794-30.jpg?size=626&ext=jpg&ga=GA1.1.1762319928.1688753308&semt=ais); */
+background-image: url(https://c4.wallpaperflare.com/wallpaper/655/216/887/super-mario-paper-mario-video-games-digital-art-wallpaper-preview.jpg);
+background-repeat: no-repeat;
+
+background-size: cover;
+background-position: center;
+box-shadow: 10px 10px 5px rgb(94, 117, 180);
+
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav  li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: rgb(15, 89, 185);
+    transition-duration: 0.6s;
+    cursor: pointer;
+
+}
+/* anchor hover */
+a:hover{
+    color: rgb(255, 14, 14);
+}
+.a:hover{
+    color: aquamarine;
+}
+/*  hire me button style */
+.btn{
+    width: 120px;
+    height: 55px;
+    border:3px solid black;
+    border-radius: 0px 10px ;
+    background: rgb(110, 150, 106);
+    font-size: 17px;
+    font-weight: bold;
+    transition-duration: 0.6s;
+    cursor: pointer;
+}
+/* button hover */
+.btn:hover{
+    color: aliceblue;
+}
+/* button style for download and contact */
+.btn1{
+    width: 120px;
+    height: 29px;
+    background-color: rgb(110, 150, 106);
+    font-weight: bold;
+    border-radius: 0px 10px ;
+}
+   
+
+/* banner related style */
+.banner{
+    padding: 30px  30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+/* h2 style */
+.h2{
+    font-size: 30px;
+}
+/* h1 style */
+.h1{
+    font-size: 70px;
+    font-weight: 2000px;
+}
+/* paragraph related style */
+.para{
+    font-size: 18px;
+}
+/* mario image related style */
+.mario-image{
+    width: 584px;
+height: 676px; 
+margin-left: 48%;
+}
