@@ -1,3 +1,4 @@
+/* Header related all styles */
 /* common shared styles */
 body{
     font-family: 'Open Sans', sans-serif;
@@ -9,16 +10,20 @@ body{
 }
 /* B letter color */
 .text-b{
-    color: #3de653d7;
+    color: #db1f1fd7;
 }
 /* L letter color */
 .text-l{
     color: rgb(248, 166, 60);
 }
 /*  header related style */
-.header{
+ .header{
     background-color: #a1b9e4;
-}
+    background-image: url(https://wallpapers-hub.art/wallpaper-images/513993.jpg);
+    background-size: cover;
+
+ }  
+
 /* nav related style */
 nav {
     display: flex;
@@ -54,7 +59,7 @@ nav  li {
 }
 nav a {
     text-decoration: none;
-    color: rgb(15, 89, 185);
+    color: rgb(23, 124, 255);
     transition-duration: 0.6s;
     cursor: pointer;
 
@@ -72,7 +77,7 @@ a:hover{
     height: 55px;
     border:3px solid black;
     border-radius: 0px 10px ;
-    background: rgb(184, 55, 55);
+    background:#DB1F48;
     font-size: 17px;
     font-weight: bold;
     transition-duration: 0.6s;
@@ -85,12 +90,16 @@ a:hover{
 /* button style for download and contact */
 .btn1{
     width: 120px;
-    height: 29px;
-    background-color:  rgb(184, 55, 55);
+    height: 35px;
+    background-color:  #DB1F48;
     font-weight: bold;
     border-radius: 0px 10px ;
     transition-duration: 0.6s;
     cursor: pointer;
+    
+}
+.btn2{
+    margin-left: 50px;
 }
 .btn1:hover{
     color: rgb(18, 22, 252);
@@ -102,6 +111,9 @@ a:hover{
     padding: 30px  30px 30px 150px;
     display: flex;
     align-items: center;
+}
+.banner-content{
+    max-width: 100%;
 }
 /* h2 style */
 .h2{
@@ -116,6 +128,8 @@ a:hover{
 /* paragraph related style */
 .para{
     font-size: 18px;
+    color: rgb(255, 167, 3);
+    padding-bottom: 50px;
 }
 /* mario image related style */
 .mario-image{
@@ -124,5 +138,31 @@ height: 600px;
 margin-left: 50%;
 background-image: url(https://c4.wallpaperflare.com/wallpaper/106/936/905/super-mario-digital-art-pixel-art-video-games-wallpaper-preview.jpg);
 border-radius: 25px;
+
+}
+/* main related all styles */
+
+    
+    
+
+/* section related styles */
+.section1{
+    padding: 150px;
+    border-radius: 20px;
+background: #bbd1fc;
+margin:100px 200px;
+}
+/* paragraph styles*/
+.section-para{
+    color: var(--dark-03, #757575);
+    text-align: center;
+    font-size: 18px; 
+}
+/* h1 style */
+.section-h1{
+    color:  #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
 
 }
