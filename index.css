@@ -23,6 +23,7 @@ body{
     background-color: #a1b9e4;
     background-image: url(https://wallpapers-hub.art/wallpaper-images/513993.jpg);
     background-size: cover;
+    
 
  }  
 
@@ -268,7 +269,7 @@ background-image: url(https://cdn.dribbble.com/users/1420929/screenshots/6543812
 
 /* div box related styles */
 .box{
-    color: #000000;
+    color: #ffffffc4;
     font-weight: bolder;
    font-family: cursive;
    font-size: large;
