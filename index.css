@@ -357,7 +357,7 @@ transition-duration: 0.5s;
     text-align: center;
     display: flex;
     justify-content: space-around;
-    height: 500px;
+    height: 600px;
     width: 1600px;
     margin-top: 130px;
     
@@ -417,3 +417,15 @@ line-height: normal;
  
 
     }
+.hr{
+    margin-bottom: 80px;
+    margin-top: 50px;
+    width: 1300px;
+    margin: auto;
+    
+   
+    
+}
+.span{
+    margin-left: 40%;
+}
