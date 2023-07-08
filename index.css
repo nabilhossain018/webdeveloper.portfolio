@@ -103,7 +103,7 @@ a:hover{
     margin-left: 50px;
 }
 .btn1:hover{
-    color: rgb(18, 22, 252);
+    color: rgb(255, 255, 255);
 }
    
 
@@ -154,10 +154,11 @@ border-radius: 25px;
 
 }
 .section1{
+    padding-top: 0;
     padding: 100px;
     border-radius: 20px;
 background: #7e9ddb;
-background-image: url(https://upload.wikimedia.org/wikipedia/en/c/c1/Super_Mario_Clouds.gif);
+background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/da033e72-0c02-4f60-a051-5fbf5205e7e8/d2uolv5-34388794-cda3-4698-a432-327f020d3e49.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RhMDMzZTcyLTBjMDItNGY2MC1hMDUxLTVmYmY1MjA1ZTdlOFwvZDJ1b2x2NS0zNDM4ODc5NC1jZGEzLTQ2OTgtYTQzMi0zMjdmMDIwZDNlNDkuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.zQTrsdfP575Sa01y1adtCnWmmk0QN-pJvpr4coNLQdI);
 background-repeat: no-repeat;
 background-size: cover;
 position: relative;
@@ -168,7 +169,7 @@ box-shadow: 15px 15px 10px rgb(46, 103, 126);
 }
 /* paragraph styles*/
 .section-para{
-    color: var(--dark-03, #443a3a);
+    color: var(--dark-03, #ffffff);
     text-align: center;
     font-size: 18px; 
     padding-top: 50px;
@@ -178,7 +179,7 @@ box-shadow: 15px 15px 10px rgb(46, 103, 126);
 .section-h1{
     border: 4px solid black;
     border-radius: 5px 0;
-    background-color: rgba(110, 84, 84, 0.521);
+    background-color: rgba(110, 84, 84, 0);
 
     color:  #ffffff;
 text-align: center;
@@ -201,7 +202,7 @@ font-weight: 700;
 }
 /* what i do styles */
 .another{
-    border: 6px solid black;
+    border: 6px solid #ffffff;
     border-radius: 5px 0;
     background-color: #dfcccc60;
     
@@ -215,10 +216,11 @@ font-weight: 700;
 .about-info{
     padding-top: 50px;
     text-align: center;
+    color: #ffffff;
 }
-.inpo-title{
+/* .inpo-title{
     opacity: 0.5;
-}
+} */
 /* paragraph id styles */ 
 #what-i-do{
     align-items: center;
@@ -233,7 +235,7 @@ font-weight: 700;
 }
 /* secttion 2 related styles */
 .section2{
-background-image: url(https://art.pixilart.com/f8da8fb7d2d8.gif);
+background-image: url(https://cdn.dribbble.com/users/1420929/screenshots/6543812/marioanimation.gif);
    /* background-color: #a4bae6a2; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -252,7 +254,7 @@ background-image: url(https://art.pixilart.com/f8da8fb7d2d8.gif);
     height: 100vh;
     height: 700px;
     align-items: center;
-    background-image: url(https://w0.peakpx.com/wallpaper/823/851/HD-wallpaper-super-mario-strikes-mario-games-artist-digital-art.jpg);
+    background-image: url(https://i.pinimg.com/originals/bf/f0/7f/bff07f008bc1e2f8545a203c178b8f69.gif);
     background-repeat: no-repeat;
     background-size: cover;
  background-position: center;
@@ -263,7 +265,10 @@ background-image: url(https://art.pixilart.com/f8da8fb7d2d8.gif);
 
 /* div box related styles */
 .box{
-    color: #729be9;
+    color: #000000;
+    font-weight: bolder;
+   font-family: cursive;
+   font-size: large;
     width: 270px;
     height: 377px;
     border: 1px solid white;
@@ -301,4 +306,42 @@ font-weight: 700;
     font-size: 30px;
     font-weight: 700;
    
+}
+/* class-container related styles */
+.class-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.resume-colam{
+    border-right: 1px solid black;
+    margin-right: 10px;
+}
+/* download cv button styles */
+.cv-button{
+
+color: var(--white-color, #FFF);
+text-align: center;
+
+font-size: 20px;
+margin-top: 50px;
+margin-left: 42%;
+font-weight: 700;
+border-radius: 5px;
+background: #FD6E0A;
+width: 200px;
+height: 50px;
+
+
+align-items: center;
+
+cursor: pointer;
+transition-duration: 0.5s;
+}
+.cv-button:hover{
+    color: #000000;
+}
+.resume-item-edu{
+    opacity: 0.5;
 }
