@@ -187,11 +187,9 @@ font-weight: 700;
 
 }
 
-/* footer-progress and progress styles */
 
-.footer-progress{
-    position: absolute; bottom: 0; left: 50%; transform: translateX(-50%);
-}
+
+
 
 
 
@@ -200,6 +198,16 @@ font-weight: 700;
     display: flex;
     justify-content: space-around;
 }
+/* what i do styles */
+.another{
+    border: 6px solid black;
+    border-radius: 5px 0;
+
+    color:  #ffffff;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+}
 /* inside the div styles */
 .about-info{
     padding-top: 50px;
@@ -207,4 +215,25 @@ font-weight: 700;
 }
 .inpo-title{
     opacity: 0.5;
+}
+/* paragraph id styles */
+#what-i-do{
+    padding: 50px 150px;
+    color: #ffffff;
+   
+    text-align: left;
+    margin-left: 80px;
+    
+}
+/* secttion 2 related styles */
+.section2{
+    background-image:url(https://e1.pxfuel.com/desktop-wallpaper/716/55/desktop-wallpaper-super-mario-artwork-mario-bros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ background-position: center;
+ height: 750px;
+ width: 1150;
+ margin-top: 100px;
+ border-radius: 5px;
+ box-shadow: 15px 15px 10px rgb(90, 97, 117);
 }
