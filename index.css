@@ -163,6 +163,8 @@ background-size: cover;
 position: relative;
 height: 550px;
 
+box-shadow: 15px 15px 10px rgb(46, 103, 126);
+
 }
 /* paragraph styles*/
 .section-para{
@@ -177,7 +179,6 @@ height: 550px;
     border: 4px solid black;
     border-radius: 5px 0;
     background-color: rgba(110, 84, 84, 0.521);
-
 
     color:  #ffffff;
 text-align: center;
@@ -220,11 +221,14 @@ font-weight: 700;
 }
 /* paragraph id styles */ 
 #what-i-do{
+    align-items: center;
+    
     padding: 100px 150px;
     color: #000000;
    font-size: xx-large;
     text-align: center;
     margin-left: 80px;
+   
     
 }
 /* secttion 2 related styles */
@@ -236,7 +240,7 @@ background-image: url(https://art.pixilart.com/f8da8fb7d2d8.gif);
  background-position: center;
  height: 650px;
  width: 100%;
- margin-top: 100px;
+ margin-top: 103px;
  border-radius: 5px;
  box-shadow: 15px 15px 10px rgb(0, 0, 0);
 }
@@ -252,13 +256,14 @@ background-image: url(https://art.pixilart.com/f8da8fb7d2d8.gif);
     background-repeat: no-repeat;
     background-size: cover;
  background-position: center;
- margin-top: 100px;
+ margin-top: 130px;
  border-radius: 6px;
+ box-shadow: 15px 15px 10px rgb(0, 0, 0);
 }
 
 /* div box related styles */
 .box{
-    color: #ffffff;
+    color: #729be9;
     width: 270px;
     height: 377px;
     border: 1px solid white;
@@ -281,4 +286,19 @@ background-image: url(https://art.pixilart.com/f8da8fb7d2d8.gif);
     width: 44px;
     border-radius: 30px;
     
+}
+/* resume related styles */
+.section-title{
+    color: #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+
+}
+
+.resume-colam-title{
+    color:  #474747;
+    font-size: 30px;
+    font-weight: 700;
+   
 }
