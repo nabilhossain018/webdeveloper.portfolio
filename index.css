@@ -202,11 +202,13 @@ font-weight: 700;
 .another{
     border: 6px solid black;
     border-radius: 5px 0;
-
+    background-color: #dfcccc60;
+    
     color:  #ffffff;
-text-align: center;
-font-size: 35px;
-font-weight: 700;
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 700;
 }
 /* inside the div styles */
 .about-info{
@@ -216,24 +218,67 @@ font-weight: 700;
 .inpo-title{
     opacity: 0.5;
 }
-/* paragraph id styles */
+/* paragraph id styles */ 
 #what-i-do{
-    padding: 50px 150px;
-    color: #ffffff;
-   
-    text-align: left;
+    padding: 100px 150px;
+    color: #000000;
+   font-size: xx-large;
+    text-align: center;
     margin-left: 80px;
     
 }
 /* secttion 2 related styles */
 .section2{
-    background-image:url(https://e1.pxfuel.com/desktop-wallpaper/716/55/desktop-wallpaper-super-mario-artwork-mario-bros.jpg);
+background-image: url(https://art.pixilart.com/f8da8fb7d2d8.gif);
+   /* background-color: #a4bae6a2; */
     background-repeat: no-repeat;
     background-size: cover;
  background-position: center;
- height: 750px;
- width: 1150;
+ height: 650px;
+ width: 100%;
  margin-top: 100px;
  border-radius: 5px;
- box-shadow: 15px 15px 10px rgb(90, 97, 117);
+ box-shadow: 15px 15px 10px rgb(0, 0, 0);
+}
+/* div boxes related styles */
+.boxes{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    height: 100vh;
+    height: 700px;
+    align-items: center;
+    background-image: url(https://w0.peakpx.com/wallpaper/823/851/HD-wallpaper-super-mario-strikes-mario-games-artist-digital-art.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ background-position: center;
+ margin-top: 100px;
+ border-radius: 6px;
+}
+
+/* div box related styles */
+.box{
+    color: #ffffff;
+    width: 270px;
+    height: 377px;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+    /* background-color: white; */
+    backdrop-filter: blur(3px);
+    box-shadow: 15px 15px 10px rgb(49, 41, 41);
+   margin-left: 20px;
+   margin-right: 20px;
+}
+/* div para style */
+.div-para{
+    padding-top: 30px;
+
+}
+/* images related styles */
+.images{
+    height: 44px;
+    width: 44px;
+    border-radius: 30px;
+    
 }
